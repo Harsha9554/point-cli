@@ -2,9 +2,8 @@
 	"name": "hole-wiki-cli",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
 	"scripts": {
-		"watch": "tsc -w",
+		"watch": "tsc --build --watch",
 		"dev": "node ./build/index.js"
 	},
 	"keywords": [],
